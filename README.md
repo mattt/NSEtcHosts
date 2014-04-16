@@ -13,6 +13,8 @@ NSEtcHosts uses `NSURLProtocol` to intercept requests for specified host names, 
 }];
 ```
 
+![NSEtcHosts in Action](https://raw.githubusercontent.com/mattt/NSEtcHosts/screenshots/screenshot.png)
+
 ```objective-c
 NSURL *URL = [NSURL URLWithString:@"http://google.com"];
 [webView loadRequest:[NSURLRequest requestWithURL:URL]];
