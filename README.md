@@ -1,6 +1,6 @@
 # NSEtcHosts
 
-NSEtcHosts uses `NSURLProtocol` to intercept requests for specified host names, resolving them instead to a different IP address, similar to an [`/etc/hosts` file](http://en.wikipedia.org/wiki/Hosts_%28file%29) on a Unix system.
+NSEtcHosts uses `NSURLProtocol` to intercept requests for specified host names, resolving them instead to a different IP address, similar to an [`/etc/hosts` file](http://en.wikipedia.org/wiki/Hosts_%28file%29) on a Unix system. (This does not actually affect the _actual_ hosts file used by iOS, nor does it affect routing behavior outside of the application process)
 
 > This is a proof-of-concept, and is not intended for use in production.
 
